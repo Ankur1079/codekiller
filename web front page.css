@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +12,11 @@ body {
     text-align: right;
 }
 header {
-    background-color:greenyellow;
+    background-color:rgb(255, 116, 47);
+    opacity: 0.2;
     padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
     
 }
 p {
@@ -31,6 +35,10 @@ p {
       scale: 100% 1;
     }
   }
+.galx{
+    color: black;
+    padding: 15px;
+}
 nav ul {
     list-style: circle;
 }
@@ -50,8 +58,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #00aaff;
 }
-
-/* Hero Section */
 .hero {
     margin-top: 250px;
     color:rgba(47, 255, 0, 0.11);
