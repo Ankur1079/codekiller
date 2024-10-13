@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times new roman', sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/previews/024/396/102/large_2x/a-view-from-space-to-a-galaxy-and-stars-universe-filled-with-stars-nebula-and-galaxy-panoramic-shot-wide-format-elements-of-this-image-furnished-by-nasa-free-photo.jpg');
+    height:100vh;
+    color: #ffffff;
+    text-align: right;
+}
+header {
+    background-color:greenyellow;
+    padding: 15px 0;
+    
+}
+p {
+    animation-duration: 3s;
+    animation-name: header;
+  }
+  
+  @keyframes header {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+nav ul {
+    list-style: circle;
+}
+
+nav ul li {
+    display: flow-root;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(21, 20, 20);
+    text-decoration: underline;
+    font-size: 20px;
+    transition: color 0.1s;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 250px;
+    color:rgba(47, 255, 0, 0.11);
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 65px;
+    margin-bottom: 30px;
+    color: blueviolet;
+}
+p {
+    animation-duration: 5s;
+    animation-name: h1;
+  }
+  
+  @keyframes h1{
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
+
+.hero p {
+    font-size: 40px;
+    color: aquamarine;
+}
